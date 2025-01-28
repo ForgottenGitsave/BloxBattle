@@ -12,6 +12,7 @@ Ai-Battler
 	README.md
 
 	server #Main server hosting filetree (Shipped seperatly)
+		main.py
 		src
 			__init__.py
 			Networking
@@ -38,6 +39,7 @@ Ai-Battler
 					unban.py
 
  	player # Main player filetree (packaged into a .zip for players to use)
+		main.py
 		src
 			__init__.py
 			Animations # Animations handler
