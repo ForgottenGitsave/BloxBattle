@@ -1,5 +1,5 @@
 # BloxBattle 
-A combo based fighting game made by BadAimStudios/ForgottenStudios
+A Crappy little fighting game made by Forgotten Studio
 
 
 ## Features
