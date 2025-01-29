@@ -7,6 +7,11 @@ Multiplayer battles
 Combo based attacks
 Ai-Battler
 
+## How To Play
+A/D for left/right movement
+Space for jumping
+Arrow keys for attacking/Comboing
+
 ## File Structure
 	LICENSE
 	README.md
