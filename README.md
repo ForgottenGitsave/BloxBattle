@@ -7,7 +7,7 @@
 
 # How to install and run
 ### Installing
-([Windows install](https://github.com/ForgottenStudios/BloxBattle/edit/main/README.md#for-windows)) (Linux Install (unstable bc i dont use linux, things might break and online might not work.))
+([Windows install](https://github.com/ForgottenStudios/BloxBattle/main/README.md#for-windows)) (Linux Install (unstable bc i dont use linux, things might break and online might not work.))
 1. Go to [https://forgottenstudios.github.io/ForgottenStudio/](https://forgottenstudios.github.io/ForgottenStudio/)
 2. Click on Games
 3. Look for BloxBattle
