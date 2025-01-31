@@ -1,103 +1,22 @@
-# BloxBattle 
-A Crappy little fighting game made by Forgotten Studio
+# Blox Battle
+- A Boring little fighting game im making for me and whoever wants to play it
 
+## Table of contents
+- [Installing](https://github.com/ForgottenStudios/BloxBattle/edit/main/README.md#how-to-install-and-run)
+- RULES FOR THIS CODE.
 
-## Features
-Multiplayer battles
-Combo based attacks
-Ai-Battler
+# How to install and run
+### Installing
+([Windows install](https://github.com/ForgottenStudios/BloxBattle/edit/main/README.md#for-windows)) (Linux Install (unstable bc i dont use linux, things might break and online might not work.))
+1. Go to [https://forgottenstudios.github.io/ForgottenStudio/](https://forgottenstudios.github.io/ForgottenStudio/)
+2. Click on Games
+3. Look for BloxBattle
+4. CLick Install
+#### (For Windows)
+5. Unzip the file and locate "install.bat" and run it as administrator
+	If you dont have python installed please install the latest version.
+6. Once the install is complete find the run.bat file.
+7. Have fun, but dont mess with the save data as that will get you banned from online servers! (Online save file only, igaf abt the solo save file, edit at your own risk)
 
-## How To Play
-A/D for left/right movement
-Space for jumping
-Arrow keys for attacking/Comboing
-
-## File Structure
-	LICENSE
-	README.md
-
-	server #Main server hosting filetree (Shipped seperatly)
-		main.py
-		src
-			__init__.py
-			Networking
-				Host
-					host.py # Allows user connections to device (All world connections)
-					subconnect.py # Connect two peers and remove from host server until end of battle (p2p connect)
-					server_type.py # Seperate server types (USWest, UK, EU, AUS, etc)
-					anticheat.py # Checks and validates files of user and checks for "badpackets (if a script that isnt a game script is running along side of the game/injected into game)"
-					report.py # Handles the user reporting system (later update)
-			UserDatabase
-				Connected
-					conencted_users.py
-					fighting_users.py
-					waiting_or_idle.py
-					user_files_update.py
-				Offline
-					offline_users.json
-					last_connection.json
-				Banned
-					banned_users.json
-					ban_user.py
-					bantest.py
-					autoreban.py
-					unban.py
-
- 	player # Main player filetree (packaged into a .zip for players to use)
-		main.py
-		src
-			__init__.py
-			Animations # Animations handler
-				__init__.py
-				fighting_animations.py
-				menu_animations.py
-			Scenes # Scenes handler
-				__init__.py
-				Game # The maps for the gamemodes
-					__init__.py
-					multiplayer_map.py
-					test_your_might.py
-					inf1v1.py
-					training.py
-					debug.py
-
-				Menu # The seperate menus
-					__init__.py
-					main_menu.py
-					settings_menu.py
-					credits_menu.py
-					multiplayer_server_menu.py
-					character_select_multiplayer_menu.py
-					character_select_solo.py
-			Engine
-				__init__.py
-				MenuHandler
-					__init__.py
-					menu_update.py
-					interaction_handler.py
-				Player
-					__init__.py
-					combo_handler.py
-					input_handler.py
-					player_render.py
-					player_const.py
-					character_handler.py
-					colisions_handler.py
-					physics_handler.py
-
- 				Ai
-					__init__.py
-					combo_handler.py
-					action_handler.py
-					ai_render.py
-					ai_const.py
-					character_handler.py
-					colisions_handler.py
-					physics_handler.py
- 				Map
-					__init__.py
-					map_render.py
-
- 			Networking
-			(will do it later)
- 		
+#### (For Linux)
+Starting off i want to say i dont use linux bc im dumb, so if anything breaks contact me on discord on our community server in Help>Linux and open a ticket, do not be disrespectful if i dont respond in a timely mannor, im only one person. You can get the link [Here](https://discord.gg/k2gwzYmK)
